@@ -1,16 +1,18 @@
 ## Simple Todo List (CRA + Redux-toolkit)
 
-![](Capture.gif)
+![](capture.gif)
 
-Live Demo: [Sandbox](Sandbox)
+Live Demo: [Sandbox]()
 
 ## Steps to run this project locally:
 
-### `git clone my_repo`
+### `git clone https://github.com/kevinnhansenn/simple-todo.git`
+
 First clone my public repository (make sure you have installed Git on your local machine)
 
 ### `yarn`
-Will install all the dependencies needed for this project
+
+Install all the dependencies needed for this project.
 
 ### `yarn start`
 
