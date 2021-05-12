@@ -1,0 +1,13 @@
+.container {
+    text-align: left;
+}
+
+.title {
+    font-size: 38px;
+    text-align: center;
+    margin: 5px 0 25px;
+}
+
+.input {
+    margin-bottom: 10px;
+}

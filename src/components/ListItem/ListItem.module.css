@@ -1,0 +1,37 @@
+.listItem {
+    cursor: pointer;
+}
+
+.normal {
+    margin-left: 12px;
+    user-select: none;
+}
+
+.strikeThrough {
+    margin-left: 12px;
+    user-select: none;
+    text-decoration: line-through;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.actions {
+    animation: appear 0.35s;
+}
+
+.innerItem {
+    display: flex;
+    align-items: center;
+}
+
+.editInput {
+    margin-left: 12px;
+    width: 355px;
+}

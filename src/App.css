@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.ant-card {
+  margin: 30px 0;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.ant-tabs-tab-active {
+  min-width: 120px;
+}
+
+.ant-tabs-tab {
+  min-width: 120px;
+  justify-content: center;
+}
+
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+
+.ant-input-prefix {
+  margin-right: 10px;
+}
+
+.ant-list-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  min-height: 57px;
+}
+
+.ant-transition {
+  transition: 1s;
+}
